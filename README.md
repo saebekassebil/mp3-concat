@@ -29,3 +29,16 @@ async.eachSeries(['file1.mp3', 'file2.mp3'], function(file, cb) {
   concatenater.end();  
 });
 ```
+
+## events
+
+### `.on('offset', cb({ duration: [Number], offset: [Number] }))`
+
+This event is emitted per input stream. `duration` is the calculated duration
+of the file/stream resource, while offset is its position in the concatenated
+file. Both numbers are in seconds.
+
+### `.on('error', cb({ rawError: [Error], reason: [String] })`
+
+This event is fired when there's trouble spawning `mp3cat`. This is most
+probably because you forgot to install it and add it to your `PATH`.
