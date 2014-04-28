@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git://github.com/saebekassebil/mp3-concat.git"
   },
+  "dependencies": {
+    "readable-stream": "~1.1.0"
+  },
   "keywords": [
     "mp3",
     "stream",
