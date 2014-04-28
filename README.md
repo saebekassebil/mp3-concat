@@ -1,4 +1,4 @@
-# mp3-concatenate
+# mp3-concat
 A transform stream that you write several mp3 files to and transforms
 them into *one single* mp3 file.
 
