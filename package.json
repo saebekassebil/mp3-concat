@@ -1,6 +1,6 @@
 {
   "name": "mp3-concat",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A stream to transform a bunch of mp3 streams into one",
   "main": "index.js",
   "repository": {
