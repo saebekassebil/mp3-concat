@@ -1,0 +1,14 @@
+{
+  "name": "mp3-concat",
+  "version": "0.1.0",
+  "description": "A stream to transform a bunch of mp3 streams into one",
+  "main": "index.js",
+  "keywords": [
+    "mp3",
+    "stream",
+    "audio",
+    "concat"
+  ],
+  "author": "Jakob Miland",
+  "license": "MIT"
+}
