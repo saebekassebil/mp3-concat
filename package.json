@@ -3,12 +3,20 @@
   "version": "0.1.0",
   "description": "A stream to transform a bunch of mp3 streams into one",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/saebekassebil/mp3-concat.git"
+  },
   "keywords": [
     "mp3",
     "stream",
     "audio",
     "concat"
   ],
-  "author": "Jakob Miland",
+  "author": {
+    "name": "Jakob Miland",
+    "email": "saebekassebil@gmail.com",
+    "url": "saebekassebil.me"
+  },
   "license": "MIT"
 }
